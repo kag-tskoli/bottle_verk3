@@ -1,0 +1,26 @@
+h1, h2{
+	text-align: center;
+	color: deepskyblue;
+}
+
+footer{
+	border: solid;
+	padding: 1em;
+}
+
+section div{
+	flex: 1;
+}
+
+img{
+	width: 60%;
+}
+
+section{
+	display: flex;
+}
+
+body{
+	max-width: 48em;
+	margin: auto;
+}
