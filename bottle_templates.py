@@ -1,3 +1,4 @@
+import os
 from bottle import run, route, error, static_file, template
 
 ####################
@@ -77,4 +78,4 @@ def img(filename):
     return static_file(filename, root='static/img')
 
 
-run()
+run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
